@@ -1,5 +1,5 @@
 # MovieWarm
-A maneira mais simples de adicionar seus pensamentos dos filmes que você assistiu.
+A maneira mais simples de registrar seus pensamentos sobre os filmes que você assistiu.
  
 # Descrição
 Este é um App voltado para os amantes de filmes, que desejam registrar seus pensamentos após assistirem algum filme.
