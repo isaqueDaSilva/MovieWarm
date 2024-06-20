@@ -9,7 +9,7 @@ Este é um App voltado para os amantes de filmes, que desejam registrar seus pen
 - Faça o download do arquivo do projeto a partir do repositório;
 - Abra o site da [OMDb API](http://www.omdbapi.com) e crie uma nova API Key;
 - Abra o projeto no Xcode;
-- Adicione sua chave de API Key ao arquivo "Config.xcconfig" da seguinte maneira: <br> 
+- Adicione a sua API Key ao arquivo "Config.xcconfig" da seguinte maneira: <br> 
 ```
 API_KEY = {Sua API Key}
 ```
