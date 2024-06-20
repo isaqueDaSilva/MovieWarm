@@ -15,6 +15,11 @@ API_KEY = {Sua API Key}
 ```
 - Por fim, execute-o.
 
+# Tecnologias Utilizadas
+- Linguagem de programação: Swift;
+- UI Framework: SwiftUI;
+- Banco de dados: Core Data;
+
 # Recursos
 - Criação de um novo review de filme;
 - Atualização de um review existente;
