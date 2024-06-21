@@ -22,6 +22,7 @@ struct MovieDetailView: View {
                     title: viewModel.movie.wrappedTitle,
                     rating: Int(viewModel.movie.userScore)
                 )
+                .multilineTextAlignment(.center)
             }
             .listRowSeparator(.hidden)
             .frame(maxWidth: .infinity)

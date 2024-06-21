@@ -16,7 +16,6 @@ struct Description: View {
             Text(title)
                 .font(.title3)
                 .bold()
-                .multilineTextAlignment(.leading)
                 .padding(.bottom, 5)
             
             RatingStars(rating: .constant(rating))

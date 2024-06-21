@@ -28,6 +28,8 @@ extension HomeView {
                         title: title,
                         rating: score
                     )
+                    .lineLimit(2)
+                    .multilineTextAlignment(.leading)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
             }
