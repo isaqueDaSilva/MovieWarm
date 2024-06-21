@@ -157,7 +157,6 @@
 			children = (
 				7E7A8F7C2C22136B00B4784D /* MovieWarm */,
 				7E93922A2C241DC200EE5AEB /* README.md */,
-				7E93922D2C241E1C00EE5AEB /* LICENSE */,
 				7E93922C2C241E1C00EE5AEB /* LICENSE */,
 				7E7A8F7B2C22136B00B4784D /* Products */,
 			);
@@ -356,13 +355,6 @@
 				7E9392252C23C62800EE5AEB /* SplashView.swift */,
 			);
 			path = "Splash Screen";
-			sourceTree = "<group>";
-		};
-		7E93922D2C241E1C00EE5AEB /* LICENSE */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LICENSE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
