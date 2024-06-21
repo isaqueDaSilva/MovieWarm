@@ -47,4 +47,6 @@ Obs1: Com excessão da pasta de UI Components, todas as outras subpastas contém
 Obs2: Algumas das subpastas apresentam outras subpastas que podem ser o `Components` para os componentes expecificos de visualização para aquela determinada view e/ou uma subpasta nomeada `Service` que contém arquivos Swifts para realização de uma determinada tarefa.
 ```
 
+# Demonstração
+- Clique no [aqui](https://youtu.be/XWvWaojRgc8) para assistir uma pequena demonstração de como o App está funcionando.
 
