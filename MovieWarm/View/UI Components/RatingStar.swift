@@ -12,17 +12,12 @@ struct RatingStars: View {
     
     @Binding var rating: Int
     
-    private var maximumRating = 5
-    private var image = Image(systemName: Icons.star.rawValue)
-    private var offColor = Color.gray
-    private var onColor = Color.yellow
-    
     var body: some View {
         HStack {
-            ForEach(1...maximumRating, id: \.self) { number in
-                image
+            ForEach(1...5, id: \.self) { number in
+                Icons.star.sysyemImage
                     .font(.subheadline)
-                    .foregroundStyle(number > rating ? offColor : onColor)
+                    .foregroundStyle(number > rating ? .gray : .yellow)
                     .onTapGesture { rating = number }
             }
         }

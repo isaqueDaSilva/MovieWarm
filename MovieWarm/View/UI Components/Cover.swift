@@ -12,19 +12,6 @@ struct Cover: View {
     let width: CGFloat
     let height: CGFloat
     
-    @ViewBuilder
-    private var errorImage: some View {
-        Icons.movieclapper.sysyemImage
-            .resizable()
-            .scaledToFill()
-            .padding()
-            .background {
-                RoundedRectangle(cornerRadius: 10)
-                    .fill(.black.opacity(0.1))
-            }
-            .frame(width: width, height: height)
-    }
-    
     var body: some View {
         Group {
             if let coverImageURL {
@@ -59,6 +46,21 @@ struct Cover: View {
         self.coverImageURL = coverImageURL
         self.width = width
         self.height = height
+    }
+}
+
+extension Cover {
+    @ViewBuilder
+    private var errorImage: some View {
+        Icons.movieclapper.sysyemImage
+            .resizable()
+            .scaledToFill()
+            .padding()
+            .background {
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(.black.opacity(0.1))
+            }
+            .frame(width: width, height: height)
     }
 }
 

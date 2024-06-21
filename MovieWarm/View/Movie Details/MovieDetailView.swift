@@ -101,9 +101,3 @@ struct MovieDetailView: View {
         )
     }
 }
-
-//#Preview {
-//    NavigationStack {
-//        MovieDetailView(movie: movie!)
-//    }
-//}

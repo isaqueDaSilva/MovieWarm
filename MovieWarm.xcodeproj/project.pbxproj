@@ -145,6 +145,7 @@
 		7E278F632C22B27D002B9CBC /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				7E278F642C22B288002B9CBC /* ViewState.swift */,
 				7E278F662C22B775002B9CBC /* ResultInformation.swift */,
 				7E278F6C2C22BAB7002B9CBC /* ChoiceMovieView+PopulatedState.swift */,
 				7E278F6E2C22BD3D002B9CBC /* ChoiceMovieView+EmptyState.swift */,
@@ -214,7 +215,6 @@
 		7E7A8F8E2C22140700B4784D /* UI Components */ = {
 			isa = PBXGroup;
 			children = (
-				7E278F642C22B288002B9CBC /* ViewState.swift */,
 				7E7A8FAE2C223C6300B4784D /* Icons.swift */,
 				7E7A8FB12C223D9400B4784D /* Cover.swift */,
 				7E7A8FB52C224E9800B4784D /* DeleteButton.swift */,

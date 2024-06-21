@@ -7,6 +7,8 @@
 
 import Foundation
 
-enum ViewState {
-    case load, loading, noItem
+extension ChoiceMovieView {
+    enum ViewState {
+        case load, loading, noItem
+    }
 }
