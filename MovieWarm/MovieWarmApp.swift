@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct MovieWarmApp: App {
+    @State private var isSplashViewPresented = true
+    
+    @Namespace private var transition
+    private var transitionKey = "TRANSITION"
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isSplashViewPresented {
+                SplashView(isSplashViewShowing: $isSplashViewPresented)
+                    .matchedGeometryEffect(id: transitionKey, in: transition)
+            } else {
+                HomeView()
+                    .matchedGeometryEffect(id: transitionKey, in: transition)
+            }
         }
     }
 }
