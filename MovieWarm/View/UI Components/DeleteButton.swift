@@ -18,7 +18,7 @@ struct DeleteButton: View {
             }
         } label: {
             Label(
-                titleHidden ? "" : "Delete Book",
+                titleHidden ? "" : "Delete Movie",
                 systemImage: Icons.trash.rawValue
             )
         }
