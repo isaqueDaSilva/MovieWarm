@@ -26,6 +26,7 @@ And to improviment even more the user experience, I integrated the OMDb API to f
 4. Opens the project files in Xcode.<br>
 5. Creates a new "Config.xcconfig" file.<br>
 6. Add your API in "Config.xcconfig" as following.<br>
+
 ```
 API_KEY = {Sua API Key}
 ```
@@ -58,6 +59,7 @@ When you open the project, click the + button and search some movie, review it, 
 If you come across any issues while using the MovieWarm, please report them by creating a new issue on the GitHub repository.
 
 * Reporting bugs form: <br> 
+
 ```
 App version: 1.0
 iOS version: 17.5
