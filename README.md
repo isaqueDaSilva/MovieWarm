@@ -22,7 +22,7 @@ And to improviment even more the user experience, I integrated the OMDb API to f
 <p>
 1. Make sure you have the Xcode version 15.3 or above installed on your computer.<br>
 2. Download the Movie Warm project files from the repository.<br>
-3. Access the [OMDb API](http://www.omdbapi.com) and creates a new API Key.<br>
+3. Access the OMDb API website and creates a new API Key.<br>
 4. Opens the project files in Xcode.<br>
 5. Creates a new "Config.xcconfig" file.<br>
 6. Add your API in "Config.xcconfig" as following.<br>
