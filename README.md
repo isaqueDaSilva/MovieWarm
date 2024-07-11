@@ -28,8 +28,9 @@ And to improviment even more the user experience, I integrated the OMDb API to f
 6. Add your API in "Config.xcconfig" as following.<br>
 
 ```
-API_KEY = {Sua API Key}
+API_KEY = {Your API Key}
 ```
+
 7. Run the active scheme.<br>
 
 # Usage
