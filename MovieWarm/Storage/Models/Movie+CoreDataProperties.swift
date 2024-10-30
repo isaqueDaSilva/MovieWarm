@@ -31,7 +31,8 @@ extension Movie {
     @NSManaged public var id: UUID?
     @NSManaged public var userScore: Int16
     @NSManaged public var userReview: String?
-    @NSManaged public var createAt: Date?
+    @NSManaged public var createAt: Date
+
     
     // MARK: - Internal Methods -
     
@@ -149,3 +150,4 @@ extension Movie {
 }
 
 extension Movie : Identifiable { }
+
